@@ -1,0 +1,63 @@
+/*Style Sheet for bio page*/
+
+body {
+    font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+    background-color: #777;
+}
+
+div {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+}
+
+header {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
+	
+	
+p {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
+
+nav {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
+
+aside {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
+
+section {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
+
+article {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
+
+footer {
+	color: green;
+	background-color: #ebebeb;
+	width: auto;
+	height: 100px;
+}
