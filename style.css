@@ -1,63 +1,62 @@
-/*Style Sheet for bio page*/
+/*Style Sheetpage*/
 
 body {
     font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
-    background-color: #777;
-}
-
-div {
-	color: green;
-	background-color: #ebebeb;
+	background-color: #777;
 	width: auto;
-}
-
-header {
-	color: green;
-	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
-}
-	
-	
-p {
-	color: green;
-	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
-}
-
-nav {
-	color: green;
-	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
-}
-
-aside {
-	color: green;
-	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
+	align-content: center;
 }
 
 section {
-	color: green;
 	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
+	text-align: center;
+	color: green;
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
 }
 
-article {
-	color: green;
+.container {
 	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
+	text-align: center;
+	color: blue;
+	width: 50%;
+	margin: 10px;
+	float: left;
+}
+
+.aside {
+	background-color: #ebebeb;
+	text-align: center;
+	color: blue;
+	padding: 10px 275px 200px 275px;
+	margin: 10px;
+	float: left;
+}
+
+
+div {
+	color: yellow;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+	margin: 10px;
+	color: yellow;
+}
+
+p {
+	background-color: #ebebeb;
+	text-align: center;
+	color: white;
 }
 
 footer {
-	color: green;
 	background-color: #ebebeb;
-	width: auto;
-	height: 100px;
+	text-align: center;
+	color: red;
+	margin: 10px;
+	padding: 30px 30px 30px 30px;
+	clear: both;
 }
