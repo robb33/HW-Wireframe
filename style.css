@@ -1,5 +1,7 @@
 /*Style Sheetpage*/
 
+/* html elements */
+
 body {
     font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
@@ -16,24 +18,6 @@ section {
 	padding: 10px 10px 10px 10px;
 }
 
-.container {
-	background-color: #ebebeb;
-	text-align: center;
-	color: blue;
-	width: 50%;
-	margin: 10px;
-	float: left;
-}
-
-.aside {
-	background-color: #ebebeb;
-	text-align: center;
-	color: blue;
-	padding: 10px 275px 200px 275px;
-	margin: 10px;
-	float: left;
-}
-
 
 div {
 	color: yellow;
@@ -43,20 +27,75 @@ h1 {
 	font-size: 18px;
 	text-align: center;
 	margin: 10px;
-	color: yellow;
+	color: black;
+	background-color:#FFFFFF;
 }
 
 p {
-	background-color: #ebebeb;
+/*	background-color: #ebebeb;*/
 	text-align: center;
 	color: white;
 }
 
-footer {
+/* html classes */
+
+.space {
+
+	width: 960px;
+	margin: 5px auto;
+
+}
+
+.wrapper {
+/*	width: 100vw;*/	
+/*	width: 960px;*/
+	margin: 10px auto;
+}
+.art1{
+	background-color:black;
+}
+
+.container {
+	width: 50%;
+	margin: 10px auto;
 	background-color: #ebebeb;
 	text-align: center;
-	color: red;
-	margin: 10px;
-	padding: 30px 30px 30px 30px;
+	padding: 0 auto;	
+	color: blue;
+	float: left;
+}
+
+.aside {
+	width: auto;
+	position:relative;
+	margin: 10px 10px 10px 10px;
+/*	margin: 10px;*/
+/*	margin: 10px auto;*/
+	background-color: #ebebeb;
+	text-align: center;
+	color: blue;	
+	padding: 10px 271px 140px 300px;
+	float: left;
+
+}
+
+/*  Id items  */
+
+
+
+
+
+/*  footer elements / classes / ids  */
+
+footer {
+
+	/*footer font*/
+	text-align: center;
+	color: red;		
+
+/*	width: 100vw;*/
+	margin: 10px auto;
+	background-color: #ebebeb;
+	padding: 10px 30px 10px 30px;
 	clear: both;
 }
